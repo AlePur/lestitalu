@@ -1,7 +1,7 @@
-*.html
 node_modules
 dist
 opencode.json
 openflake/
 marginalia.db*
 .yarn*
+yarn.lock
