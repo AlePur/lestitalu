@@ -1,0 +1,98 @@
+.section {
+  padding: 88px 72px;
+  background: var(--body-bg-alt);
+}
+
+.header {
+  margin-bottom: 48px;
+}
+
+.kicker {
+  margin-bottom: 18px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.intro {
+  color: var(--ink-soft);
+  font-size: 18px;
+  margin-bottom: 28px;
+  line-height: 1.7;
+}
+
+.trail {
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  align-items: start;
+}
+
+.trailLast {
+  border-bottom: 1px solid var(--line);
+}
+
+.trailName {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+
+.trailText {
+  font-size: 16px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+
+.trailNote {
+  font-style: italic;
+  color: var(--trail-note);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.status {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  color: var(--gold-dark);
+  border: 1px solid var(--gold);
+  padding: 5px 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-top: 6px;
+}
+
+.infoBox {
+  border: 1px solid var(--line);
+  padding: 32px;
+}
+
+.infoTitle {
+  margin-bottom: 20px;
+}
+
+.infoList {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoItem {
+  font-size: 16px;
+  color: var(--ink-soft);
+  line-height: 1.55;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+
+.infoItemLast {
+  border-bottom: 1px solid var(--line);
+}

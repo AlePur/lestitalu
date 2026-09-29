@@ -1,0 +1,189 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+/* Uppercase section labels */
+.kicker {
+  font-family: var(--font-ui);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.kicker--sm {
+  font-size: 11px;
+}
+
+.kicker--brown {
+  color: var(--gold-dark);
+}
+
+.kicker--gold {
+  color: var(--gold);
+}
+
+/* Numbers, dates and captions without uppercase transform */
+.micro-label {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.micro-label--plain {
+  text-transform: none;
+  letter-spacing: 0.16em;
+}
+
+.micro-label--wide {
+  letter-spacing: 0.16em;
+}
+
+.micro-label--brown {
+  color: var(--gold-dark);
+}
+
+.micro-label--gold {
+  color: var(--gold);
+}
+
+.micro-label--muted {
+  color: var(--muted);
+}
+
+.micro-label--dark-muted {
+  color: var(--dark-muted);
+}
+
+/* Section headings */
+.h2 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--ink);
+}
+
+.h2--dark {
+  color: var(--body-bg);
+}
+
+.h2--md {
+  font-size: clamp(32px, 3.5vw, 48px);
+}
+
+.h2--lg {
+  font-size: clamp(34px, 4vw, 52px);
+  line-height: 1.08;
+}
+
+.h2--xl {
+  font-size: clamp(38px, 4.5vw, 60px);
+  line-height: 1.08;
+}
+
+.h2--fixed {
+  font-size: 38px;
+}
+
+.h2--italic {
+  font-style: italic;
+}
+
+/* Solid figures with floating captions */
+.figure {
+  position: relative;
+  overflow: hidden;
+}
+
+.figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.figure__caption {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.figure__caption--sand {
+  color: var(--sand-caption);
+}
+
+.figure__caption--dark {
+  color: var(--dark-muted);
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--dark);
+  background: var(--gold);
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 13px 28px;
+}
+
+.btn--sm {
+  font-size: 12px;
+  padding: 8px 16px;
+  letter-spacing: 0.08em;
+}
+
+/* Underlined arrow links */
+.link-arrow {
+  font-family: var(--font-ui);
+  font-size: 12px;
+  color: var(--gold-dark);
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 2px;
+}
+
+.link-arrow--gold {
+  color: var(--gold);
+  border-bottom-color: var(--line-dark-medium);
+  padding-bottom: 3px;
+}
+
+.link-arrow--cream {
+  color: var(--cream);
+}
+
+.link-arrow--taupe {
+  color: var(--taupe-soft);
+  border-bottom-color: var(--line-dark-medium);
+  padding-bottom: 3px;
+}
+
+/* Recurring paragraph treatments */
+.text-soft {
+  color: var(--ink-soft);
+}
+
+.text-dark {
+  color: var(--dark-text);
+}
+
+.small-soft {
+  font-size: 16px;
+  color: var(--ink-soft);
+  line-height: 1.65;
+}
+
+.dark-em {
+  color: var(--dark-em);
+}

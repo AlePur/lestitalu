@@ -1,0 +1,77 @@
+.section {
+  background: var(--dark);
+  padding: 96px 72px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 72px;
+  align-items: start;
+  margin-bottom: 56px;
+}
+
+.header .kicker {
+  margin-bottom: 20px;
+}
+
+.title {
+  line-height: 1.08;
+}
+
+.headerText {
+  padding-top: 44px;
+}
+
+.paragraph {
+  color: var(--dark-text);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.paragraphSpaced {
+  margin-bottom: 16px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--line-dark);
+}
+
+.item {
+  padding: 32px 28px 0;
+}
+
+.item0 {
+  padding-right: 28px;
+  padding-left: 0;
+}
+
+.item1,
+.item2 {
+  border-left: 1px solid var(--line-dark);
+}
+
+.item3 {
+  padding-left: 28px;
+  padding-right: 0;
+  border-left: 1px solid var(--line-dark);
+}
+
+.itemNum {
+  margin-bottom: 16px;
+}
+
+.itemTitle {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  color: var(--cream);
+  margin-bottom: 8px;
+}
+
+.itemText {
+  font-size: 15px;
+  color: var(--dark-muted);
+  line-height: 1.6;
+}

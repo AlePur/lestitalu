@@ -1,0 +1,78 @@
+.section {
+  background: var(--body-bg-alt);
+  padding: 96px 72px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.kicker {
+  margin-bottom: 18px;
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.paragraph {
+  color: var(--ink-soft);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.paragraphSpaced {
+  margin-bottom: 16px;
+}
+
+.paragraph em {
+  font-style: italic;
+}
+
+.aside {
+  padding-top: 24px;
+}
+
+.season {
+  border-top: 1px solid var(--line);
+  padding: 26px 0;
+}
+
+.season:last-of-type {
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 26px;
+}
+
+.seasonLabel {
+  margin-bottom: 10px;
+}
+
+.seasonTitle {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+
+.seasonText {
+  font-size: 16px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+
+.closing {
+  font-size: 17px;
+  color: var(--ink-soft);
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.closing strong {
+  color: var(--ink);
+  font-weight: 500;
+  font-style: normal;
+}

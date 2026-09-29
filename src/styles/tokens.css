@@ -1,0 +1,36 @@
+:root {
+  --font-serif: 'Vollkorn', Georgia, serif;
+  --font-ui: 'Bitter', serif;
+
+  --ink: #1E1810;
+  --ink-soft: #3A2E1E;
+  --muted: #6E6050;
+  --body-bg: #F2EDE1;
+  --body-bg-alt: #E8E0CE;
+  --sand: #E2DAC4;
+  --sand-caption: #5F5134;
+  --taupe-soft: #BFB29A;
+  --trail-note: #7A6050;
+
+  --dark: #191308;
+  --dark-panel: #241C10;
+  --dark-text: #B0A286;
+  --dark-em: #DDD3BC;
+  --dark-muted: #9A8B70;
+  --dark-taupe: #A8997E;
+  --cream: #EDE6D4;
+
+  --gold: #C69A3E;
+  --gold-dark: #7E5E1C;
+  --line: #CFC2A6;
+  --line-dark: rgba(198, 154, 62, 0.22);
+  --line-dark-soft: rgba(198, 154, 62, 0.18);
+  --line-dark-medium: rgba(198, 154, 62, 0.5);
+
+  --green: #2F3A24;
+  --green-label: #A8B096;
+  --green-text: #D3D3BC;
+  --green-note: #C9CBB2;
+  --green-line: rgba(237, 230, 212, 0.14);
+  --green-gold-line: rgba(198, 154, 62, 0.3);
+}

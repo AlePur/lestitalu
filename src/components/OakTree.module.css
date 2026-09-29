@@ -1,0 +1,49 @@
+.section {
+  background: var(--dark);
+  padding: 96px 72px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.kicker {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 28px;
+}
+
+.paragraph {
+  color: var(--dark-text);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.paragraphSpaced {
+  margin-bottom: 18px;
+}
+
+.paragraph em {
+  color: var(--dark-em);
+}
+
+.paragraph strong {
+  color: var(--dark-em);
+  font-weight: 500;
+}
+
+.figure {
+  aspect-ratio: 4 / 5;
+  background-color: var(--dark-panel);
+  border: 1px solid var(--line-dark);
+}
+
+.caption {
+  bottom: 16px;
+  left: 16px;
+}

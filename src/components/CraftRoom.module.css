@@ -1,0 +1,142 @@
+.section {
+  padding: 96px 72px;
+  background: var(--body-bg);
+}
+
+.header {
+  margin-bottom: 52px;
+}
+
+.kicker {
+  margin-bottom: 18px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  align-items: start;
+  margin-bottom: 56px;
+}
+
+.patternFigure {
+  aspect-ratio: 1;
+  background-color: var(--sand);
+  border: 1px solid var(--line);
+}
+
+.patternCaption {
+  bottom: 16px;
+  left: 16px;
+}
+
+.paragraph {
+  color: var(--ink-soft);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.paragraph0,
+.paragraph1 {
+  margin-bottom: 16px;
+}
+
+.paragraph2 {
+  margin-bottom: 28px;
+}
+
+.paragraph strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+}
+
+.tagSolid {
+  color: var(--cream);
+  background: var(--dark);
+}
+
+.tagOutline {
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+}
+
+.tagGold {
+  color: var(--gold-dark);
+  border: 1px solid var(--gold);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  border: 1px solid var(--line);
+  padding: 32px;
+}
+
+.cardNum {
+  margin-bottom: 18px;
+}
+
+.cardTitle {
+  font-family: var(--font-serif);
+  font-size: 23px;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+
+.cardText {
+  font-size: 16px;
+  color: var(--ink-soft);
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+.cardFigure {
+  height: 140px;
+  background-color: var(--sand);
+  border: 1px solid var(--line);
+}
+
+.cardCaption {
+  bottom: 12px;
+  left: 12px;
+}
+
+.workshop {
+  background: var(--dark);
+  padding: 32px;
+  position: relative;
+}
+
+.workshopTitle {
+  color: var(--body-bg);
+}
+
+.workshopText {
+  font-size: 16px;
+  color: var(--dark-text);
+  line-height: 1.65;
+  margin-bottom: 24px;
+}
+
+.workshopLink {
+  padding-bottom: 3px;
+}

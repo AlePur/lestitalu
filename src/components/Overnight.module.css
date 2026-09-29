@@ -1,0 +1,73 @@
+.section {
+  background: var(--dark);
+  padding: 0 72px 96px;
+}
+
+.separator {
+  height: 1px;
+  background: var(--line-dark);
+  margin-bottom: 88px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.kicker {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 28px;
+}
+
+.paragraph {
+  color: var(--dark-text);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.paragraphSpaced {
+  margin-bottom: 18px;
+}
+
+.aside {
+  padding-top: 20px;
+}
+
+.conditionsLabel {
+  margin-bottom: 20px;
+}
+
+.conditions {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.condition {
+  font-size: 17px;
+  color: var(--dark-text);
+  line-height: 1.6;
+  padding: 14px 0;
+  border-top: 1px solid var(--line-dark);
+}
+
+.conditionLast {
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.quote {
+  margin-bottom: 32px;
+}
+
+.quoteText {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-style: italic;
+  color: var(--dark-em);
+  line-height: 1.5;
+}

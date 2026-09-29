@@ -1,0 +1,86 @@
+.section {
+  background: var(--body-bg-alt);
+  padding: 88px 72px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 72px;
+  align-items: start;
+}
+
+.kicker {
+  margin-bottom: 18px;
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.paragraph {
+  color: var(--ink-soft);
+  font-size: 18px;
+}
+
+.paragraphSpaced {
+  margin-bottom: 16px;
+}
+
+.aside {
+  padding-top: 28px;
+}
+
+.portraitCard {
+  background: var(--dark);
+  padding: 36px 32px;
+}
+
+.portraitLabel {
+  margin-bottom: 20px;
+}
+
+.portraitName {
+  font-family: var(--font-serif);
+  font-size: 28px;
+  font-style: italic;
+  color: var(--cream);
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.portraitDates {
+  font-family: var(--font-ui);
+  font-size: 12px;
+  color: var(--dark-muted);
+  letter-spacing: 0.1em;
+  margin-bottom: 24px;
+}
+
+.portraitDivider {
+  height: 1px;
+  background: var(--line-dark);
+  margin-bottom: 24px;
+}
+
+.portraitRoles {
+  font-size: 16px;
+  color: var(--dark-taupe);
+  line-height: 1.8;
+}
+
+.onsiteCard {
+  background: var(--dark-panel);
+  padding: 24px 32px;
+  border-top: 1px solid var(--line-dark);
+}
+
+.onsiteLabel {
+  margin-bottom: 8px;
+}
+
+.onsiteText {
+  font-size: 16px;
+  color: var(--dark-text);
+  line-height: 1.6;
+}

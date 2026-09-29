@@ -1,0 +1,88 @@
+.section {
+  background: var(--green);
+  padding: 88px 72px;
+}
+
+.header {
+  margin-bottom: 52px;
+}
+
+.header .kicker {
+  margin-bottom: 18px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.intro {
+  color: var(--green-text);
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 620px;
+  margin-bottom: 24px;
+}
+
+.note {
+  font-size: 16px;
+  color: var(--cream);
+  border-left: 2px solid var(--gold);
+  padding: 4px 0 4px 18px;
+  margin-bottom: 32px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+}
+
+.columnTitle {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  color: var(--gold);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--green-gold-line);
+}
+
+.block {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--green-line);
+}
+
+.blockLabel {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  color: var(--green-label);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.blockText {
+  color: var(--cream);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.hoursNote {
+  color: var(--green-note);
+  font-size: 16px;
+}
+
+.phoneLink {
+  color: var(--cream);
+  text-decoration: none;
+}
+
+.overnightText {
+  margin-bottom: 14px;
+}
+
+.overnightLink {
+  border-bottom-color: var(--line-dark-medium);
+  padding-bottom: 2px;
+}
